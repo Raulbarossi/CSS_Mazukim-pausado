@@ -1,0 +1,52 @@
+.headerColor
+  background-color: #E7E8ED
+  
+.header
+  height: 300px
+
+.corpo
+  height: 600px
+
+.kim
+  height: 300px
+  position: absolute
+  transform: translate(-450px, 120px)
+  transition: 0.5s
+  @media screen and (max-width: 990px)
+    height: 180px
+    transform: translate(-400px, 120px)
+  @media screen and (max-width: 840px)
+    height: 180px
+    transform: translate(-300px, 150px)
+  @media screen and (max-width: 650px)
+    height: 180px
+    transform: translate(0px, 210px)
+
+.janela
+  height: 250px
+  max-width: 800px
+  background-color: #191D55
+  box-shadow: (18px 18px 24px 5px #ff0000b9)
+  border: solid black
+  border-radius: 20px
+  transition: 3s
+  &:hover
+    background-color:  #9e0606
+    box-shadow: (30px 30px 24px 5px #191D55)
+
+.texto
+  font-size: 2.5rem
+  color: #fff
+  text-align: center
+  @media screen and (max-width: 760px)
+    font-size: 2rem
+  @media screen and (max-width: 500px)
+    font-size: 1.5rem
+
+.footer
+  height: 200px
+  display: flex
+  background-color: #191D55
+
+.logoRodape
+  width: 200px
